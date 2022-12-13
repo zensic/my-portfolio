@@ -1,0 +1,26 @@
+:root {
+  --primary: #73B2D9;
+  --secondary: #C4EEF2;
+  --tertiary: #537BC3;
+  --alt: #8BCAD9;
+  --alt2: #5E88BF;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  background-color: var(--tertiary);
+}
+
+nav a{
+  padding: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+nav a:hover {
+  border-radius: .5rem;
+  color: var(--tertiary);
+  background-color: var(--secondary);
+}

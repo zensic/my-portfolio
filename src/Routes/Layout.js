@@ -7,12 +7,10 @@ const Layout = () => {
     <div className="layout">
       <nav>
         <Link to={``}>Home</Link>
-        <Link to={``}>About</Link>
-        <Link to={``}>Projects</Link>
+        <Link to={`projects`}>Projects</Link>
+        <Link to={`contact`}>Contact</Link>
       </nav>
-      <div id="detail">
-        <Outlet />
-      </div>
+      <Outlet />
     </div>
   )
 }

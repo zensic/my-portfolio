@@ -22,11 +22,11 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  /* background-color: green; */
 }
 
 nav {
   display: flex;
-  width: 100%;
   position: sticky;
   top: 0;
   background-color: var(--tertiary);
@@ -47,5 +47,37 @@ nav a:hover {
 }
 
 .home {
-  width: 100%;
+  display: flex;
+  height: 100vh;
+}
+
+.home-desc {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  /* background-color: yellow; */
+}
+
+.home-desc-con {
+  margin: 1rem;
+}
+
+.title {
+  color: var(--primary);
+}
+
+.details {
+  color: var(--secondary);
+}
+
+.home-img {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: orange; */
+}
+
+.home-img img{
+  width: 80%;
 }

@@ -4,6 +4,7 @@
   --tertiary: #537BC3;
   --alt: #8BCAD9;
   --alt2: #5E88BF;
+  --radius: 1rem;
 }
 
 body {
@@ -81,3 +82,16 @@ nav a:hover {
 .home-img img{
   width: 80%;
 }
+
+
+/* Projects styles start */
+.project {
+  padding: 1rem;
+  background-color: var(--secondary);
+  border-radius: var(--radius);
+}
+
+.project-title {
+  font-weight: bold;
+}
+/* Projects styles end */

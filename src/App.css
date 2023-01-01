@@ -16,6 +16,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: var(--tertiary);
 }
 
 /* Layout styles start*/
@@ -23,28 +24,28 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  /* background-color: green; */
+  /* margin: 3rem 5rem; */
 }
 
 nav {
   display: flex;
   position: sticky;
   top: 0;
-  background-color: var(--tertiary);
+  background-color: green;
 }
 
 nav a{
-  margin: .5rem;
-  padding: 1rem;
+  margin: 1rem;
   font-weight: bold;
   text-decoration: none;
   color: var(--secondary);
+  filter: grayscale(0);
+  border-bottom: 2px solid rgba(0,0,0,0);
 }
 
 nav a:hover {
-  border-radius: .5rem;
-  color: var(--tertiary);
-  background-color: var(--secondary);
+  color: white;
+  border-bottom: 2px solid white;
 }
 
 .home {
@@ -63,11 +64,7 @@ nav a:hover {
   margin: 1rem;
 }
 
-.title {
-  color: var(--primary);
-}
-
-.details {
+.home-desc-con > h1, h3 {
   color: var(--secondary);
 }
 

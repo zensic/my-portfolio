@@ -7,6 +7,7 @@ const Layout = () => {
     <div className="layout">
       <nav>
         <Link to={``}>Home</Link>
+        <Link to={`About`}>About</Link>
         <Link to={`projects`}>Projects</Link>
         <Link to={`contact`}>Contact</Link>
       </nav>

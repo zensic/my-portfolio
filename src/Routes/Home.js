@@ -6,8 +6,8 @@ const Home = () => {
       <div className='home-desc'>
         <div className='home-desc-con'>
           <h1 className='title'>Hi, I am Anthony!</h1>
-          <h3 className='details'>Thank you for visiting my website</h3>
-          <h3 className='details'>I'm a fresh cs graduate, software development major. I build full stack apps using frameworks like React, Node, and .NET. I love drawing, game dev and taekwondo</h3>
+          <h3 className='details'>Welcome to my website 😊</h3>
+          <h3 className='details'>I'm a CS graduate, software development major. I build full stack apps using tech like React, Node, and .NET. I love drawing, game dev and taekwondo</h3>
         </div>
       </div>
       <div className='home-img'>

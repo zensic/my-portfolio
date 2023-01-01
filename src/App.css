@@ -1,9 +1,9 @@
 :root {
-  --primary: #73B2D9;
-  --secondary: #C4EEF2;
-  --tertiary: #537BC3;
-  --alt: #8BCAD9;
-  --alt2: #5E88BF;
+  --primary: #73b2d9;
+  --secondary: #c4eef2;
+  --tertiary: #537bc3;
+  --alt: #8bcad9;
+  --alt2: #5e88bf;
   --radius: 1rem;
 }
 
@@ -23,24 +23,29 @@ body {
 .layout {
   height: 100vh;
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.layout-con {
+  height: 95vh;
+  max-width: 800px;
+  display: flex;
   flex-direction: column;
-  /* margin: 3rem 5rem; */
 }
 
 nav {
   display: flex;
-  position: sticky;
   top: 0;
-  background-color: green;
 }
 
-nav a{
+nav a {
   margin: 1rem;
   font-weight: bold;
   text-decoration: none;
   color: var(--secondary);
   filter: grayscale(0);
-  border-bottom: 2px solid rgba(0,0,0,0);
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
 }
 
 nav a:hover {
@@ -54,7 +59,7 @@ nav a:hover {
 }
 
 .home-desc {
-  flex: 1;
+  flex: 2;
   display: flex;
   align-items: center;
   /* background-color: yellow; */
@@ -64,7 +69,8 @@ nav a:hover {
   margin: 1rem;
 }
 
-.home-desc-con > h1, h3 {
+.home-desc-con > h1,
+h3 {
   color: var(--secondary);
 }
 
@@ -76,10 +82,9 @@ nav a:hover {
   /* background-color: orange; */
 }
 
-.home-img img{
-  width: 80%;
+.home-img img {
+  width: 100%;
 }
-
 
 /* Projects styles start */
 .project {

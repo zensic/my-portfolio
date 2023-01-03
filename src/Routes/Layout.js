@@ -8,9 +8,9 @@ const Layout = () => {
       <div className="layout-con">
         <nav>
           <Link to={``}>Home</Link>
-          <Link to={`About`}>About</Link>
+          <Link to={`about`}>About</Link>
           <Link to={`projects`}>Projects</Link>
-          <Link to={`contact`}>Contact</Link>
+          <a href="https://github.com/zensic" target="_blank" rel="noopener noreferrer">GitHub</a>
         </nav>
         <Outlet />
       </div>

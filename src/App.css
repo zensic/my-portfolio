@@ -5,6 +5,7 @@
   --alt: #8bcad9;
   --alt2: #5e88bf;
   --radius: 1rem;
+  --b-margin: 1.5rem;
 }
 
 body {
@@ -29,7 +30,7 @@ body {
 
 .layout-con {
   height: 95vh;
-  max-width: 800px;
+  max-width: 1100px;
   display: flex;
   flex-direction: column;
 }
@@ -40,7 +41,7 @@ nav {
 }
 
 nav a {
-  margin: 1rem;
+  margin: var(--b-margin);
   font-weight: bold;
   text-decoration: none;
   color: var(--secondary);
@@ -53,6 +54,9 @@ nav a:hover {
   border-bottom: 2px solid white;
 }
 
+/* Layout styles end */
+
+/* Home styles start */
 .home {
   display: flex;
   height: 100vh;
@@ -66,11 +70,14 @@ nav a:hover {
 }
 
 .home-desc-con {
-  margin: 1rem;
+  margin: var(--b-margin);
 }
 
-.home-desc-con > h1,
-h3 {
+.title {
+  color: white;
+}
+
+.details {
   color: var(--secondary);
 }
 
@@ -79,12 +86,25 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: orange; */
+  margin: var(--b-margin);
 }
 
 .home-img img {
   width: 100%;
 }
+
+/* Home styles end */
+
+/* About styles start */
+.about {
+  display: flex;
+  margin: var(--b-margin);
+}
+
+.about-info {
+  flex: 1;
+}
+/* About styles end */
 
 /* Projects styles start */
 .project {

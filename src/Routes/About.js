@@ -9,7 +9,9 @@ const About = () => {
         <h2 className='title'>What I'm working on now</h2>
         <hr />
         <ul>
-          <li></li>
+          <li>Building my personal website</li>
+          <li>Completing freecodecamp data structures & algorithms</li>
+          <li>Looking into photography/FPV drones</li>
         </ul>
         <p></p>
         <h2 className='title'>Tools</h2>

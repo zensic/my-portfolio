@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import About from "./Routes/About";
 import Home from "./Routes/Home";
-import Layout from "./Routes/Layout";
+import Layout from "./Components/Layout";
 import Projects from "./Routes/Projects";
 
 function App() {

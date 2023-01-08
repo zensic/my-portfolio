@@ -8,16 +8,34 @@ const Projects = () => {
         <div className='project'>
           <div className='project-title'>Project name</div>
           <div className='project-desc'>Short description</div>
-          <button>Link</button>
+          <button className='project-button'>Link</button>
         </div>
         <div className='project'>
           <div className='project-title'>Project name</div>
           <div className='project-desc'>Short description</div>
+          <button className='project-button'>Link</button>
         </div>
         <div className='project'>
           <div className='project-title'>Project name</div>
           <div className='project-desc'>Short description</div>
+          <button className='project-button'>Link</button>
         </div>
+        <div className='project'>
+          <div className='project-title'>Project name</div>
+          <div className='project-desc'>Short description</div>
+          <button className='project-button'>Link</button>
+        </div>
+        <div className='project'>
+          <div className='project-title'>Project name</div>
+          <div className='project-desc'>Short description</div>
+          <button className='project-button'>Link</button>
+        </div>
+        <div className='project'>
+          <div className='project-title'>Project name</div>
+          <div className='project-desc'>Short description</div>
+          <button className='project-button'>Link</button>
+        </div>
+        
       </div>
     </div>
   )

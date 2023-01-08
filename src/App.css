@@ -106,7 +106,7 @@ nav a:hover {
 
 /* Projects styles start */
 .project-container {
-  margin: var(--b-margin)
+  margin: var(--b-margin);
 }
 
 .project-grid {
@@ -123,5 +123,11 @@ nav a:hover {
 
 .project-title {
   font-weight: bold;
+}
+
+.project-button {
+  background-color: var(--primary);
+  border: 1px solid var(--tertiary);
+  border-radius: var(--radius);
 }
 /* Projects styles end */

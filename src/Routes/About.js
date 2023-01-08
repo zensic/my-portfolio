@@ -5,10 +5,10 @@ const About = () => {
     <div className='about'>
       <div className='about-info'>
         <h1 className='title'>About me</h1>
-        <p>Hello, I'm Anthony! I'm a recent computer science graduate, majoring in software development. I have a strong foundation in algorithms, data structures and software design.</p>
+        <p className='details'>Hello, I'm Anthony! I'm a recent computer science graduate, majoring in software development. I have a strong foundation in algorithms, data structures and software design. I also love doing digital painting and game dev in my free time.</p>
         <h2 className='title'>What I'm working on now</h2>
         <hr />
-        <ul>
+        <ul className='details'>
           <li>Building my personal website</li>
           <li>Completing freecodecamp data structures & algorithms</li>
           <li>Looking into photography/FPV drones</li>
@@ -17,13 +17,13 @@ const About = () => {
         <h2 className='title'>Tools</h2>
         <hr />
         <h3 className='title'>Software</h3>
-        <ul>
+        <ul className='details'>
           <li>This website is hosted on Vercel, and uses the React framework.</li>
           <li>Coding: Visual Studio Code</li>
           <li>Painting: Krita</li>
         </ul>
         <h3 className='title'>Hardware</h3>
-        <ul>
+        <ul className='details'>
           <li>CPU: AMD Ryzen 5 3600</li>
           <li>GPU: XFX RX 6600</li>
           <li>Motherboard: Asrock B450M Pro4</li>
